@@ -1,0 +1,33 @@
+.menu-lateralHome{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #000;
+    color: #FFFFFF;
+    position: relative;
+}
+.btn-home, .btn-todosRecursos, .btn-meusRecursos{
+    width: 80%;
+    height: 70px;
+    top: 120px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn-voltarLogin{
+    width: 80%;
+    height: 70px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}

@@ -1,0 +1,50 @@
+.barra-topo{
+  width: 100vw;
+  height: 80px;
+  background-color: #000000;
+  box-shadow: 0px 4px 8px #00000029;
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  top: 0;
+}
+
+.titulo-barraTopo{
+  width: 500px;
+  height: 100%;
+  left: 15px;
+  position: absolute;
+}
+.titulo-barraTopo h1{
+  font-size: 22px; 
+  top: 10%; 
+  color: #fff;
+  position: absolute;
+}
+.titulo-barraTopo h2{
+  font-size: 26px;
+  top: 25%;
+  color: #fff;
+  position: absolute;
+}
+
+.img-logo{
+  width: 8%;
+  height: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.btn-toggle{
+  width: 50px;
+  right: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}

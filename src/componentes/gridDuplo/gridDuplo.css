@@ -1,0 +1,16 @@
+.grid-duplo{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    position: absolute;
+}
+
+.rotas-recursos{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: #CACACA;
+    position: relative;
+}

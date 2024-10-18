@@ -1,0 +1,20 @@
+.grid-duplo{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    position: absolute;
+}
+
+.todos-recursos{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: #CACACA;
+    position: relative;
+}
+
+.todos-recursos h1{
+    color: #000000;
+}
