@@ -7,7 +7,7 @@ export function Header() {
       <header className="barra-topo">
         <div className="titulo-barraTopo">
           <h1>Construtor de</h1>
-          <h2>Recursos Interativos</h2>
+          <h2>Recursos Interativos X</h2>
         </div>
         <img className="img-logo" src={logo} alt=""/>
         <button className="btn-toggle">
