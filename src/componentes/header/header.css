@@ -1,10 +1,9 @@
-.barra-topo{
-  width: 100vw;
+.barra-topo {
+  width: 100%;
   height: 80px;
-  background-color: #000000;
-  box-shadow: 0px 4px 8px #00000029;
-  z-index: 3;
-  position: absolute;
+  /* Remova o background-color */
+  position: fixed;
+  z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,22 +12,16 @@
 }
 
 .titulo-barraTopo{
-  width: 500px;
   height: 100%;
   left: 15px;
-  position: absolute;
 }
 .titulo-barraTopo h1{
   font-size: 22px; 
   top: 10%; 
-  color: #fff;
-  position: absolute;
 }
 .titulo-barraTopo h2{
   font-size: 26px;
   top: 25%;
-  color: #fff;
-  position: absolute;
 }
 
 .img-logo{
@@ -37,7 +30,6 @@
   left: 0;
   right: 0;
   margin: auto;
-  position: absolute;
 }
 
 .btn-toggle{
@@ -46,5 +38,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+}
+
+.custom-logo {
+  color: blue;
 }

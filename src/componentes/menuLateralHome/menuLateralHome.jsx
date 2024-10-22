@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom';
+import { Box, useColorModeValue } from '@chakra-ui/react';
 import "./menuLateralHome.css"
 
 export function MenulateralHome() {
-
+  const headerBgColor = useColorModeValue('header.light', 'header.dark');
+  
   return (
       <>
-        <div className="menu-lateralHome">
+        <Box className="menu-lateralHome" bg={headerBgColor}>
           <Link to="/">
             <button className="btn-home">
               Home
@@ -25,7 +27,7 @@ export function MenulateralHome() {
           <button className="btn-voltarLogin">
             Voltar Login
           </button>
-        </div>
+        </Box>
       </>
     )
 }
