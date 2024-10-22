@@ -29,7 +29,7 @@ export function Header() {
             Construtor de
           </Heading>
           <Heading as="h2" size="md" color={colorMode === 'light' ? 'green' : 'blue'} marginTop="0">
-            Recursos Interativos
+            Recursos Interativos@@
           </Heading>
         </Box>
 
