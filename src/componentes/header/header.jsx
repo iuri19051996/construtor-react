@@ -32,8 +32,9 @@ export function Header() {
             Recursos Interativos@@
           </Heading>
         </Box>
-
-        <Logo width="550" height="500px" color={toggleBgColor} />
+        <Box>  
+          <Logo width="550" height="500px" color={toggleBgColor} />
+        </Box>
 
         <Toggle />
       </Flex>
