@@ -4,42 +4,41 @@
   /* Remova o background-color */
   position: fixed;
   z-index: 9999;
-  display: flex;
+  display: grid;
   align-items: center;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
   top: 0;
 }
 
+.img-logo{
+  width: 16.5%;
+  height: 100%;
+  left: 8px;
+  position: relative;
+}
+
 .titulo-barraTopo{
+  width: 100%;
   height: 100%;
   left: 15px;
 }
 .titulo-barraTopo h1{
-  font-size: 22px; 
+  font-weight: 400;
+  text-align: center;
+  font-size: 24px; 
   top: 10%; 
 }
 .titulo-barraTopo h2{
-  font-size: 26px;
+  text-align: center;
+  font-size: 28px;
   top: 25%;
 }
 
-.img-logo{
-  width: 8%;
-  height: 70%;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
 .btn-toggle{
-  width: 50px;
+  width: 100%;
   right: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.custom-logo {
-  color: blue;
 }

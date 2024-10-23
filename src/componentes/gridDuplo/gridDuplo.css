@@ -4,13 +4,24 @@
     top: 0;
     display: grid;
     grid-template-columns: 80px 1fr;
+    gap: 10px;
     position: absolute;
+}
+
+.teste{
+    width: 100%;
+    height: 100%;
+    padding-top: 85px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .rotas-recursos{
     width: 100%;
     height: 100%;
-    padding-top: 100px;
-    background-color: #CACACA;
+    border-radius: 10px;
+    background-color: #ced4da;
+    box-shadow: inset 0 0 8px 4px #8f8f8fad;
     position: relative;
 }

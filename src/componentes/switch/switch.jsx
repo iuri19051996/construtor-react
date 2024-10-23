@@ -5,14 +5,13 @@ export function Toggle() {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Box>
-          <Switch 
-            isChecked={colorMode === 'dark'} 
-            onChange={toggleColorMode} // Corrigido para usar toggleColorMode
-            size="lg" 
-            colorScheme="gray"
-            position="relative"
-          >
+        <Box display="flex" justifyContent="flex-end">   
+        <Switch
+        isChecked={colorMode === 'dark'}     
+        onChange={toggleColorMode}
+        size="lg"
+        colorScheme="gray" >
+        
             {/* Lua (para modo claro) */}
             <Box 
               position="absolute" 

@@ -17,27 +17,23 @@ export function Header() {
       width="100vw"
       height="80px"
     >
-      <Flex 
-        align="center" 
-        justify="space-between" 
-        height="100%"
-        width="100%" 
-        paddingX="10px"
+       
+      <Box 
+        textAlign= "left"
       >
-        <Box className="titulo-barraTopo">
-          <Heading as="h1" size="lg" color={toggleBgColor} marginBottom="0">
-            Construtor de
-          </Heading>
-          <Heading as="h2" size="md" color={colorMode === 'light' ? 'green' : 'blue'} marginTop="0">
-            Recursos Interativos@@
-          </Heading>
-        </Box>
-        <Box>  
-          <Logo width="550" height="500px" color={toggleBgColor} />
-        </Box>
+        <Logo className="img-logo" color={toggleBgColor} />
+      </Box>
 
-        <Toggle />
-      </Flex>
+      <Box className="titulo-barraTopo">
+        <Heading as="h1" size="lg" color={toggleBgColor} marginBottom="0">
+          Construtor de
+        </Heading>
+        <Heading as="h2" size="md" color={toggleBgColor} marginTop="0">
+          Recursos Interativos
+        </Heading>
+      </Box>
+
+      <Toggle />
     </Box>
   );
 }
