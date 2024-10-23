@@ -3,11 +3,11 @@
     height: 100%;
     top: 0;
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 150px 1fr;
     position: absolute;
 }
 
-.teste{
+.bloco{
     width: 100%;
     height: 100%;
     padding-top: 85px;

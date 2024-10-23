@@ -1,10 +1,9 @@
-import { useColorMode, useColorModeValue, Box, Flex, Heading } from '@chakra-ui/react';
+import { useColorModeValue, Box, Heading } from '@chakra-ui/react';
 import Logo from '../../assets/logo.svg?react';
 import { Toggle } from '../switch/switch';
 import './header.css'
 
 export function Header() {
-  const { colorMode } = useColorMode();
   const headerBgColor = useColorModeValue('header.light', 'header.dark');
   const toggleBgColor = useColorModeValue('toggle.light', 'toggle.dark');
   //const svgColor = useColorModeValue('blue.500', 'green.500');

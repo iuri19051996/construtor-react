@@ -35,9 +35,9 @@ const theme = extendTheme({
       light: '#333333',
       dark: '#e9ecef',
     },
-    brand: {
-      100: '#f7cbd3',
-      200: '#f9b6c3',
+    menu: {
+      light: '#333333',
+      dark: '#e9ecef',
     },
   },
 });

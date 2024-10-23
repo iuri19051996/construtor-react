@@ -5,8 +5,8 @@ import "./gridDuplo.css";
 export function Gridduplo() {
     return (
         <div className="grid-duplo">
-                <MenulateralHome />
-                <div className="teste">
+            <MenulateralHome />
+            <div className="bloco">
                 <div className="rotas-recursos">
                     <Link to="/quiz">
                         <button>
@@ -19,8 +19,7 @@ export function Gridduplo() {
                         </button>
                     </Link>
                 </div>
-                </div>
-                
+            </div>  
         </div>
     );
 }
