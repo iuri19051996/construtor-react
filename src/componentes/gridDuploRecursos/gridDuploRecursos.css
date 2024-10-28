@@ -38,3 +38,56 @@
 .meus-recursos h1{
     color: #000000;
 }
+
+.custom-accordion-button {
+    background-color: #e9ecef;
+    color: #333;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+   
+  .custom-accordion-button:hover[aria-expanded="false"] {
+    background-color: #333333; /* teal.600 */
+    color: #e9ecef;
+  }
+   
+  .custom-accordion-button[aria-expanded="true"] {
+    background-color: #333; /* teal.700 */
+    color: #e9ecef;
+    font-weight: bold;
+  }
+
+.accordion-span{
+    gap: 3%;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.txt-info{
+    background-color: #e9ecef;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+} 
+
+.info-input {
+    background-color: #e2e8f0; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    border: 1px solid #333; /* Borda */
+    border-radius: 8px; /* Borda arredondada */
+}
+   
+.info-input:hover {
+    border-color: #63b3ed; /* Cor da borda ao passar o mouse */
+}
+
+.info-input:focus {
+    border-color: #319795; /* Cor da borda ao focar */
+    box-shadow: 0 0 0 2px #319795; /* Sombra ao focar */
+}
